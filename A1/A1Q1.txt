@@ -1,0 +1,16 @@
+a.
+mov ah, 0
+mov al, 13 //or your preferred mode- 13h is pretty standard
+int 10 //interrupt 10
+//to enter the mode, enter a new line to exit assemble mode and execute these 3 lines using p 3
+//to go back to test mode:
+mov ah, 0
+mov al, 2 //default text mode
+int 10
+//same method to run
+
+b.
+mov ah, 6 //int 21h direct I/O
+mov dl, 41 //'A'
+int 21 //calls interrupt
+//same method as above to run

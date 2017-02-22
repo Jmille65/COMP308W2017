@@ -1,0 +1,12 @@
+Feb 20
+General dot and line
+-general dot <- hardware is different, so have to find out hardware info
+-need to know width, length, and d (depth of pixel)
+-speak directly to hardware or will use the OS? if OS, need to use banks
+-if banks, then (ynd)+(xd)
+
+void setPixel(int colour, int x, int y) {
+	//get n, m, d
+	//addr = (ynd) + (xd)
+	//calc bank no, offset, int/switch bank, addr = offset
+	//next step depends on depth- if one byte, sb colour- 2- sw colour- 4- sw 0, sw colour
