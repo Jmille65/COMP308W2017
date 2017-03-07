@@ -1,0 +1,15 @@
+
+SVGA INFO
+Signature: †
+VersionL: 0
+VersionH: 2
+OEMStringPtr: 1
+
+SVGA MODE INFO
+XResolution: P
+YResolution: 0
+XCharSize: 0
+YCharSize: 0
+BitsPerPixel: 0
+NumberOfBanks: 0
+MemoryModel: 0
